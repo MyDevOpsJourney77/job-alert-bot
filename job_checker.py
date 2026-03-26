@@ -8,7 +8,7 @@ CHAT_ID = 880622327
 def send_message(message):
     url = f"https://api.telegram.org/bot{8460172500:AAG9hHAaVi9CsAP0Vdje9dDA_LhyZ8XCHbw}/sendMessage"
     data = {
-        "chat_id": CHAT_ID,
+        "chat_id": 880622327,
         "text": message
     }
     response = requests.post(url, data=data)
